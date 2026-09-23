@@ -10,6 +10,7 @@ function calculateTicketPrice(quantity, basePrice, vip) {
   if (vip) {
     price = price * 1.5;
   }
+  price = price - 10;
   return price;
 }
 
