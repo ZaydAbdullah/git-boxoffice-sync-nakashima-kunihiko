@@ -56,3 +56,49 @@ Fetch first, before starting work or before pushing. If each contributor ran git
 
 
 
+Screenshots
+
+Task 1 — Clone A adds group discount
+
+https://screenshots/task-01-group-discount.png
+
+
+
+Task 2 — Clone B push rejected
+
+https://screenshots/task-02-rejected-push.png
+
+
+
+Task 3 — Clone B merge resolved
+
+https://screenshots/task-03-merge-resolved.png
+
+
+
+Task 4 — Clone C push rejected
+
+https://screenshots/task-04-rejected-push.png
+
+
+
+Task 5 — Clone C three-way merge
+
+https://screenshots/task-05-three-way-merge.png
+
+
+
+Task 6 — Clone A rebase resolved
+
+https://screenshots/task-06-rebase-resolved.png
+
+
+
+Task 7 — Merge to main, tagged
+
+https://screenshots/task-07-tag-and-main.png
+
+
+
+
+
