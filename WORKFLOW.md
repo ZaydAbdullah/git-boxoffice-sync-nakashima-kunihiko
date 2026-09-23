@@ -13,8 +13,7 @@ function calculateTicketPrice(quantity, basePrice, vip) {
   }
   price = price - 10;
   return price;
-}
-Q1 - Walk through the final calculateTicketPrice
+}Q1 - Walk through the final calculateTicketPrice
 The final function contains four behaviors that each came from a different contributor and survived three rounds of reconciliation. Math.round(quantity * basePrice) came from contributor B, who replaced the original Math.floor. The group discount (quantity >= 5, price *= 0.9) came from contributor A. The VIP surcharge (vip, price *= 1.5) came from contributor C. The flat discount (price -= 10) was added by A in Task 6 and placed after the VIP check so it acts as a final adjustment.
 
 Q2 - Two-way vs. three-way conflict
@@ -47,26 +46,3 @@ https://screenshots/task-06-rebase-resolved.png
 
 Task 7 - Merge to main, tagged
 https://screenshots/task-07-tag-and-main.png
-
-## Screenshots
-
-### Task 1 - Clone A adds group discount
-![Task 1](screenshots/task-01-group-discount.png)
-
-### Task 2 - Clone B push rejected
-![Task 2](screenshots/task-02-rejected-push.png)
-
-### Task 3 - Clone B merge resolved
-![Task 3](screenshots/task-03-merge-resolved.png)
-
-### Task 4 - Clone C push rejected
-![Task 4](screenshots/task-04-rejected-push.png)
-
-### Task 5 - Clone C three-way merge
-![Task 5](screenshots/task-05-three-way-merge.png)
-
-### Task 6 - Clone A rebase resolved
-![Task 6](screenshots/task-06-rebase-resolved.png)
-
-### Task 7 - Merge to main, tagged
-![Task 7](screenshots/task-07-tag-and-main.png)
